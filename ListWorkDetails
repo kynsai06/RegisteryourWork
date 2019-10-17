@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shillong Clinics | Sngur | English</title>
+  <meta name="description" content="A list of basic information and specilization">
+  <meta name="author" content="Sngur Shillong">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+  <!--<link rel="icon" type="image/png" href="https://sngur.github.io/Hospital-List/dist/images/favicon.png">-->
+</head>
+<body>
+
+<div class="container text-center">
+  <br/><br/>
+  <h2>DISPLAY THE INFORMATION ALONG WOTH THE Specilization</h2>
+  <p>This is an open-source project for providing basic useful information about the register user specialization.<br/></p> 
+  <p style="background-color:#428bca;margin:10px;padding:10px;color:white;">You are currently viewing this website in English Language. 
+    <!--Switch to another Language: <br/>
+    <a class="btn btn-success" href="https://sngur.github.io/Hospital-List/">Khasi</a>&nbsp; 
+    <a class="btn btn-danger" href="https://sngur.github.io/Hospital-List/garo/">Garo</a>&nbsp; 
+    <a class="btn btn-info" href="https://sngur.github.io/Hospital-List/pnar/">Pnar</a>&nbsp;
+    <a class="btn btn-info" href="https://sngur.github.io/Hospital-List/mizo/">Mizo</a>&nbsp; 
+    <a class="btn btn-secondary" href="https://sngur.github.io/Hospital-List/hindi/">Hindi</a><br/>-->
+    Currently we have 22 clinics listed here.
+</p>  
+    <p style='background-color:#232323'>
+    <br/>
+    <h5>Detailed Information</h5>
+    <div class="table-responsive">
+    <table id="details" class="table table-striped table-bordered table-condensed" style="width:100%">
+        <thead>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>District</th>
+                <th>Phone no</th>
+                <th>email</th>                
+                <th>Specialize</th>                             
+            </tr>
+        </thead>
+        <tbody>            
+             <tr>
+                <td>1.</td>
+                <td>Kynsai Stephan Khongsam </td>
+                <td><a href="https://maps.google.com/?cid=17319166468079851376">Shillong</a></td>                    
+                <td>East Khasi Hills</td>
+                <td><a href="#">CALL 9089641972</a></td>
+                <td>sailyngdoh@gmail.com</td>
+                <td>Full Stack Developer</td>                                          
+            </tr>            
+            <tr>
+                <td>2.</td>
+                <td>Kyrshanlang Dkhar</td>
+                 <td><a href="https://maps.google.com/?cid=17319166468079851376">Shillong</a></td>         
+                <td>East Khasi Hills</td>
+                <td><a href="#">8974373065</a></td>
+		<td>NA</td>
+         
+                <td>Full Stack Developer</td>                            
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Pyndapbiang John Lyngdoh</td>
+                <td><a href="https://maps.google.com/?cid=3256293501282741429">Shillong</a></td>
+                <td>East Khasi Hills</td>
+                <td>NA</td>
+                <td>NA</td>               
+                <td>Teaching</td>                          
+            </tr>
+             <tr>
+                <td>4.</td>
+                <td>Wanpherdor Dkhar</td>
+                <td><a href="https://maps.google.com/?cid=13943051312841274052">Shillong</a></td>
+                <td>East Khasi Hills</td>
+                <td>NA</td>
+                <td>N/A</td>
+                <td>Electrician</td>                          
+            </tr>
+         
+            </tr>   
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>District</th>
+                <th>Phone no</th>
+                <th>Email</th>                
+                <th>Specialize</th>                 
+            </tr>
+            
+        </tfoot>
+    </table>
+    </div>
+    </p>
+    <p>
+      <!--<h4>Share this website:</h4><br/>-->      
+      <br/>      
+       Anyone can come along and contribute information, if you know HTML then simply fork this project on github, add and update information and then make a pull request with your contributions, if you don't know HTML then simply send in your information to our email address : <a href="mailto:sngurshillong@gmail.com">sngurshillong@gmail.com</a> and we will update this page.
+    </p>
+    <p class="text-center"><hr/>
+    This is a non-profit and ad-free website, developed by<br/>
+    <a href="http://sngur.com"><img src="https://sngur.github.io/Hospital-List/dist/images/sngur.png" width="100px" /></a>
+    <h5>We are Social, You can find us:</h5><br/>
+    <a href="https://facebook.com/sngur.shillong"><img src="https://sngur.github.io/Hospital-List/dist/images/fb_small.png" width="25px" / ></a>
+    <a href="https://instagram.com/sngur_shillong"><img src="https://sngur.github.io/Hospital-List/dist/images/ig_small.png" width="25px" / ></a>
+    <a href="https://github.com/sngur"><img src="https://sngur.github.io/Hospital-List/dist/images/git_small.png" width="25px" / ></a>
+
+    <br/><br/><hr/>
+       <b>If you are a developer join our facebook Group : <a href="https://www.facebook.com/groups/developers.cummunity/">
+        <img src="https://sngur.github.io/Hospital-List/dist/images/fb_small.png" width="25px" />
+       </a></b> 
+    </p>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+</body>
+</html>
